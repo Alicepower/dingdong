@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+  <title>有趣界面-前端开发攻城狮琉璃</title>
+  <meta name="keywords" content="web简历,琉璃子个人简历,个人简历,琉璃青" />
+  <meta name="description" content="琉璃子个人简历" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/base.css" rel="stylesheet">
+  <link href="css/person.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<script>
+window.onload = function ()
+{
+	var oH2 = document.getElementsByTagName("h2")[0];
+	var oUl = document.getElementsByTagName("ul")[0];
+	oH2.onclick = function ()
+	{
+		var style = oUl.style;
+		style.display = style.display == "block" ? "none" : "block";
+		oH2.className = style.display == "block" ? "open" : ""
+	}
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="tophead">
+    <div class="logo"><a href="/"></a></div>
+    <div id="mnav">
+      <h2><span class="navicon"></span></h2>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="aboutus.html">关于我们</a></li>
+        <li><a href="personal.html">快乐工作</a></li>
+        <li><a href="project.html">加入我们</a></li>
+      </ul>
+    </div>
+    <nav class="topnav" id="topnav">
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="aboutus.html">关于我们</a></li>
+        <li><a href="personal.html">快乐工作</a></li>
+        <li><a href="project.html">加入我们</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<article>
+
+
+</article>
+<footer class="foot">
+  <p ><a href="/">  Copyright @ 2018 沪ICP备310025989号 All Rights Reserved Design by liulizi</a> </p>
+  <p ><a href="/"> 2015 上海壹佰米网络科技有限公司 版权所有</a></p>
+  <p ><img src="images/beian.png" alt=""  class="img"><a href="/"> 沪公网安备 31011502004838号</a></p>
+  <p ><img src="images/gov02.png" alt=""  class="img"><a href="/"> 沪ICP备 14046000号</a></p>
+</footer>
+<script src="js/nav.js"></script>
+</body>
+</html>

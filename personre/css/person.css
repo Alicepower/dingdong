@@ -1,0 +1,166 @@
+@charset "gb2312";
+/* 共用css */
+* { margin: 0; padding: 0 }
+body { font: 14px "微软雅黑", Arial, Helvetica, sans-serif; color: #555; background:#f7f7f7; }
+
+.sidebar{
+    width: 100%;
+    height:400px;
+    background: linear-gradient(to right, rgb(138, 35, 135), rgb(233, 64, 87), rgb(242, 113, 33));
+    background: -webkit-linear-gradient(to right, rgb(138, 35, 135), rgb(233, 64, 87), rgb(242, 113, 33)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(to right, rgb(138, 35, 135), rgb(233, 64, 87), rgb(242, 113, 33)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(to right, rgb(138, 35, 135), rgb(233, 64, 87), rgb(242, 113, 33)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgb(138, 35, 135), rgb(233, 64, 87), rgb(242, 113, 33)); /* 标准的语法,必须放最后 */
+    /*// background-color: linear-gradient(#ffc837,#ff8008) center;*/
+}
+
+.perIntro{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0  auto;
+    padding-top: 150px;
+    color: bisque;
+}
+.introcon {
+background: url(../images/8f64246e202931f01a7ccb14bbf03b38.jpg);
+    width:1920px;
+    height: 500px;
+    border-top: 2px solid #dcdcdc;
+
+
+}
+.logo{
+    background: url("../images/logo.png");
+    width: 124px;
+    height: 51px;
+}
+.perIntro h1{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bolder;
+    transition: left ease-in-out;
+}
+.perIntro p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.foot{
+
+    text-align: center;
+    background: #3cb963;
+    color: #fff;
+    font-size: 13px;
+}
+
+.foot p{
+    color: white;
+    margin-top: 10px;
+}
+.foot a{
+    color: white;
+}
+
+.link{
+    width: 100%;
+    height: 550px;
+    background-image: url(../images/achivements-bg.jpg) ;
+}
+
+.linkus:hover{
+    border: 1px solid white;
+}
+.linkus{
+    width:700px;
+    height:350px;
+    display: inline-block;
+   /* border-radius: 10px;*/
+    text-align: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+   /* border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;*/
+    font-size: 16px;
+   margin-left: 650px;
+    background-color: #fff;
+    color: #555;
+    margin-top: 80px;
+    display: inline-block;
+    box-shadow: #a5a4a4;
+
+
+}
+
+.linkstyle img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 80px;
+
+}
+
+.linkstyle img:hover{
+    border: 1px solid white;
+}
+
+
+.linkus h1{
+
+    font-family: Bahnschrift;
+    margin-top: 20px;
+}
+
+.linkstyle li{
+    list-style: none;
+    text-align: left;
+    display: block;
+   margin-left: 320px;
+    margin-top: -55px;
+}
+
+.one{
+
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 900px;
+    height: 200px;
+}
+
+.about{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-top: 2px solid #dcdcdc;
+    background-color: #f6f6f6;
+}
+#wrap h1{
+    font-size: 25px;
+    color: #aa0000;
+}
+.aboutus p {
+    font-size: 18px;
+    padding: 3px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+p {
+    line-height: 1.8;
+}
+.aboutus h2 {
+    margin-bottom: 49px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: normal;
+}
+.banner{
+    margin: 49px auto 60px;
+    height: 400px;
+    background: url(../images/aboutus.png) no-repeat center center;
+}
+.img{
+    display:inline-block ;margin-right: 15px
+}

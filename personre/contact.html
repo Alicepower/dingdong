@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>联系我-前端开发攻城狮琉璃</title>
+  <meta name="keywords" content="web简历,琉璃子个人简历,个人简历,琉璃青" />
+  <meta name="description" content="琉璃子个人简历" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/base.css" rel="stylesheet">
+  <link href="css/person.css" rel="stylesheet">
+  <script src="js/nav.js"></script>
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<script>
+window.onload = function ()
+{
+	var oH2 = document.getElementsByTagName("h2")[0];
+	var oUl = document.getElementsByTagName("ul")[0];
+	oH2.onclick = function ()
+	{
+		var style = oUl.style;
+		style.display = style.display == "block" ? "none" : "block";
+		oH2.className = style.display == "block" ? "open" : ""
+	}
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="tophead">
+    <div class="logo"><a href="/">琉璃个人简介</a></div>
+    <div id="mnav">
+      <h2><span class="navicon"></span></h2>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="aboutus.html">关于我</a></li>
+        <li><a href="personal.html">个人经历</a></li>
+        <li><a href="project.html">作品集</a></li>
+        <li><a href="interui.html">有趣界面</a></li>
+        <li><a href="contact.html">联系方式</a></li>
+      </ul>
+    </div>
+    <nav class="topnav" id="topnav">
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="aboutus.html">关于我</a></li>
+        <li><a href="personal.html">个人经历</a></li>
+        <li><a href="project.html">作品集</a></li>
+        <li><a href="interui.html">有趣界面</a></li>
+        <li><a href="contact.html">联系方式</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<article>
+
+
+  <div class="link">
+
+<div class="linkus">
+  <h1>联系我</h1>
+  <ul class="linkstyle">
+    <img src="images/wx.jpg" alt="" >
+    <li>住址：上海徐汇区</li>
+    <li>QQ：2682227146</li>
+    <li>邮箱：alice_power@163.com </li>
+    <li>微信号：AliePower</li>
+  </ul>
+
+</div>
+
+  </div>
+
+</article>
+<footer class="foot">
+
+  <p ><a href="/">  Copyright @ 2018 沪ICP备310025989号 All Rights Reserved Design by liulizi</a> </p>
+  <p ><a href="/"> 一名行走在雨中的程序媛</a></p>
+  <p ><a href="/"> 期待与您的遇见</a></p>
+</footer>
+
+</body>
+</html>
